@@ -10,6 +10,14 @@
 
 ---
 
+## Acknowledgments
+
+**Inspired by [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** by Yeachan Heo.
+
+OMH is a port of the OMC multi-agent orchestration system for Hermes AI, bringing the same workflow automation to the Hermes ecosystem.
+
+---
+
 ## Quick Start
 
 **Step 1: Install via npm**
