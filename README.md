@@ -27,17 +27,39 @@ npm i -g oh-my-hermes-sisyphus@latest
 
 # From your terminal
 omh setup
+
+# Or use install script
+./install.sh
 ```
 
-**Step 3: Build something**
+**Step 3: Use Skills in Hermes**
 
 ```bash
 # Inside a Hermes AI session
 /autopilot "build a REST API for managing tasks"
-
-# Natural-language in-session shortcut
-autopilot: build a REST API for managing tasks
+/ralph "implement user authentication"
+/team "build e-commerce checkout"
+/plan "design microservices architecture"
 ```
+
+## Hermes Integration
+
+oh-my-hermes integrates with Hermes AI as a plugin and skill collection.
+
+### Installation Location
+- Skills: `~/.hermes/omh/`
+- Plugin: `~/.hermes/plugins/oh-my-hermes/`
+
+### Available Skills
+| Skill | Command | Description |
+|-------|---------|-------------|
+| Autopilot | `/autopilot` | Full autonomous execution |
+| Ralph | `/ralph` | Persistence loop with verification |
+| Ultrawork | `/ultrawork` | Parallel task execution |
+| Team | `/team` | Multi-agent coordination |
+| Plan | `/plan` | Strategic planning |
+| Ultraqa | `/ultraqa` | QA cycling workflow |
+| Cancel | `/cancel` | Cancel active modes |
 
 ---
 

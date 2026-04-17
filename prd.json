@@ -8,7 +8,7 @@
         "All 9 skills have valid SKILL.md files",
         "Skill descriptions match Hermes skill format"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-002",
@@ -18,7 +18,7 @@
         "Python scripts provide Hermes-compatible entry points",
         "Skills can be invoked from Hermes"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-003",
@@ -28,7 +28,7 @@
         "Hermes can discover OMH skills via hermes skills list",
         "README updated with Hermes integration instructions"
       ],
-      "passes": false
+      "passes": true
     },
     {
       "id": "US-004",
