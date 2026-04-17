@@ -1,0 +1,21 @@
+{
+  "name": "oh-my-hermes",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration system for Hermes AI",
+  "author": {
+    "name": "oh-my-hermes contributors"
+  },
+  "repository": "https://github.com/shuangxipop1/oh-my-hermes",
+  "homepage": "https://github.com/shuangxipop1/oh-my-hermes",
+  "license": "MIT",
+  "keywords": [
+    "hermes",
+    "hermes-ai",
+    "plugin",
+    "multi-agent",
+    "orchestration",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "oh-my-hermes",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration for Hermes AI - Inspired by oh-my-claudecode",
+  "categories": ["automation", "productivity", "agents"],
+  "homepage": "https://github.com/shuangxipop1/oh-my-hermes",
+  "repository": "https://github.com/shuangxipop1/oh-my-hermes",
+  "keywords": ["hermes", "multi-agent", "orchestration", "automation"]
+}
