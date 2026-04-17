@@ -1,9 +1,26 @@
-# OMH Setup Skill
+---
+name: omh-setup
+description: Install or refresh oh-my-hermes configuration. Alternative entry point for OMH setup.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Setup, Installation, Configuration, Refresh]
+    related_skills: [setup, cancel]
+---
 
-## Description
+# OMH Setup — Hermes Integration Guide
+
 Install or refresh oh-my-hermes configuration.
 
+## Prerequisites
+
+- Node.js >= 20.0.0
+- Hermes AI installed
+
 ## Usage
+
 ```
 /omh-setup
 /setup omh

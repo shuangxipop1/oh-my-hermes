@@ -1,15 +1,32 @@
-# Ultraqa Skill
+---
+name: ultraqa
+description: QA cycling workflow - test, verify, fix, repeat until goal met. Iterative quality assurance.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [QA, Testing, Verification, Quality, Iteration]
+    related_skills: [ralph, critic, debugger]
+---
 
-## Description
+# Ultraqa — Hermes Integration Guide
+
 QA cycling workflow - test, verify, fix, repeat until goal met.
 
+## Prerequisites
+
+- Hermes AI installed
+- OMH (oh-my-hermes) installed
+
 ## Usage
+
 ```
 /ultraqa [task]
 /ultraqa --pass-criteria=[criteria]
 ```
 
-## What It Does
+## What Ultraqa Does
 
 Ultraqa runs iterative QA cycles:
 

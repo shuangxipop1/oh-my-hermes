@@ -1,15 +1,32 @@
-# Ultrawork Skill
+---
+name: ultrawork
+description: High-throughput parallel execution engine for task completion. Executes multiple independent tasks in parallel.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Parallel, Execution, High-Throughput, Automation]
+    related_skills: [autopilot, team, ralph]
+---
 
-## Description
+# Ultrawork — Hermes Integration Guide
+
 High-throughput parallel execution engine for task completion.
 
+## Prerequisites
+
+- Hermes AI installed
+- OMH (oh-my-hermes) installed
+
 ## Usage
+
 ```
 /ultrawork [task list]
 /ultrawork --parallel [task1] --parallel [task2]
 ```
 
-## What It Does
+## What Ultrawork Does
 
 Ultrawork executes multiple independent tasks in parallel:
 
@@ -61,12 +78,6 @@ Task A → Task B → Task C → [Results]
 ✓ Parallel test runs
 ✓ Simultaneous code generation
 ✓ Concurrent API implementations
-
-## Tips
-
-- Group related tasks together
-- Use `--max-workers` to control load
-- Use `--fail-fast` for critical pipelines
 
 ---
 

@@ -1,13 +1,29 @@
-# OMH Setup Skill
+---
+name: setup
+description: Install and configure oh-my-hermes for Hermes AI. Sets up agents, skills, and CLI tools.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Setup, Installation, Configuration, CLI]
+    related_skills: [omh-setup, cancel]
+---
 
-## Description
+# Setup — Hermes Integration Guide
+
 Install and configure oh-my-hermes for Hermes AI.
 
+## Prerequisites
+
+- Node.js >= 20.0.0
+- Hermes AI installed
+
 ## Usage
+
 ```
 /setup
 /setup omh
-/omh-setup
 ```
 
 ## What It Does
@@ -34,11 +50,15 @@ Install and configure oh-my-hermes for Hermes AI.
    - Enables skills
    - Sets up plugin path
 
-## Requirements
+## Terminal Installation
 
-- Node.js >= 20.0.0
-- Hermes AI installed
-- npm or yarn
+```bash
+# Install via npm
+npm i -g oh-my-hermes-sisyphus@latest
+
+# Run setup
+omh setup
+```
 
 ## Post-Setup
 
@@ -54,7 +74,7 @@ If setup fails:
 1. Check Node.js version: `node --version`
 2. Check Hermes installation: `hermes --version`
 3. Verify npm access: `npm --version`
-4. Run with verbose: `/omh-setup --verbose`
+4. Run with verbose: `omh doctor`
 
 ---
 

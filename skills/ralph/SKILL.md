@@ -1,15 +1,34 @@
-# Ralph Skill
+---
+name: ralph
+description: Self-referential loop until task completion with configurable verification reviewer. PRD-driven persistence loop.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Persistence, Verification, PRD, Loop, Quality]
+    related_skills: [autopilot, ultraqa, critic]
+---
 
-## Description
+# Ralph — Hermes Integration Guide
+
 Self-referential loop until task completion with configurable verification reviewer.
 
+## Prerequisites
+
+- Hermes AI installed
+- OMH (oh-my-hermes) installed
+- prd.json file (auto-created or provided)
+
 ## Usage
+
 ```
 /ralph [task description]
 /ralph --critic=architect [task]
+/ralph --critic=critic [task]
 ```
 
-## What It Does
+## What Ralph Does
 
 Ralph keeps working on a task until ALL acceptance criteria are verified:
 
@@ -17,16 +36,6 @@ Ralph keeps working on a task until ALL acceptance criteria are verified:
 2. **Story-by-Story**: Implements and verifies each story
 3. **Verification Loop**: Keeps iterating until approved
 4. **Clean Exit**: Runs cancel to cleanup on success
-
-## Options
-
-| Option | Description |
-|--------|-------------|
-| `--critic=architect` | Use architect for verification (default) |
-| `--critic=critic` | Use critic agent for verification |
-| `--critic=codex` | Use Codex for verification |
-| `--no-prd` | Skip PRD mode (not recommended) |
-| `--no-deslop` | Skip deslop cleanup pass |
 
 ## Ralph Flow
 
@@ -47,6 +56,14 @@ Ralph keeps working on a task until ALL acceptance criteria are verified:
                                    ↓
                               [Done]
 ```
+
+## Options
+
+| Option | Description |
+|--------|-------------|
+| `--critic=architect` | Use architect for verification (default) |
+| `--critic=critic` | Use critic agent for verification |
+| `--no-deslop` | Skip deslop cleanup pass |
 
 ## PRD Format
 

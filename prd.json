@@ -1,0 +1,44 @@
+{
+  "stories": [
+    {
+      "id": "US-001",
+      "description": "Create Hermes-compatible SKILL.md structure",
+      "acceptanceCriteria": [
+        "SKILL.md files are in Hermes-compatible format",
+        "All 9 skills have valid SKILL.md files",
+        "Skill descriptions match Hermes skill format"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-002",
+      "description": "Create Python bridge scripts for OMH skills",
+      "acceptanceCriteria": [
+        "__init__.py files exist in each skill directory",
+        "Python scripts provide Hermes-compatible entry points",
+        "Skills can be invoked from Hermes"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-003",
+      "description": "Create OMH installer script for Hermes",
+      "acceptanceCriteria": [
+        "install.sh script installs OMH to Hermes",
+        "Hermes can discover OMH skills via hermes skills list",
+        "README updated with Hermes integration instructions"
+      ],
+      "passes": false
+    },
+    {
+      "id": "US-004",
+      "description": "Verify OMH skills work in Hermes",
+      "acceptanceCriteria": [
+        "/autopilot skill is callable from Hermes",
+        "/ralph skill is callable from Hermes",
+        "omh doctor shows Hermes integration working"
+      ],
+      "passes": false
+    }
+  ]
+}

@@ -1,9 +1,26 @@
-# Cancel Skill
+---
+name: cancel
+description: Cancel any active OMH mode and clean up state files. Stops autopilot, ralph, ultrawork, team modes.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Cancel, Cleanup, State, Mode]
+    related_skills: [autopilot, ralph, ultrawork, team]
+---
 
-## Description
+# Cancel — Hermes Integration Guide
+
 Cancel any active OMH mode and clean up state files.
 
+## Prerequisites
+
+- Hermes AI installed
+- OMH (oh-my-hermes) installed
+
 ## Usage
+
 ```
 /cancel
 /cancel --all

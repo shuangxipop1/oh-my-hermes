@@ -1,15 +1,32 @@
-# Plan Skill
+---
+name: plan
+description: Strategic planning with optional interview workflow. Creates structured approach before committing to execution.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Planning, Strategy, Architecture, Interview]
+    related_skills: [autopilot, architect, ralph]
+---
 
-## Description
+# Plan — Hermes Integration Guide
+
 Strategic planning with optional interview workflow.
 
+## Prerequisites
+
+- Hermes AI installed
+- OMH (oh-my-hermes) installed
+
 ## Usage
+
 ```
 /plan [task description]
 /plan --interactive [task]
 ```
 
-## What It Does
+## What Plan Does
 
 Plan creates a structured approach before committing to execution:
 
@@ -56,7 +73,7 @@ Plan creates a structured approach before committing to execution:
 
 ## Output Format
 
-```
+```markdown
 ## Plan Summary
 
 ### What We're Building

@@ -1,15 +1,32 @@
-# Team Skill
+---
+name: team
+description: N coordinated agents on shared task list using Hermes native team mode. Multi-agent coordination and orchestration.
+version: 1.0.0
+author: oh-my-hermes contributors
+license: MIT
+metadata:
+  hermes:
+    tags: [Multi-Agent, Team, Coordination, Orchestration]
+    related_skills: [autopilot, ultrawork, planner]
+---
 
-## Description
+# Team — Hermes Integration Guide
+
 N coordinated agents on shared task list using Hermes native team mode.
 
+## Prerequisites
+
+- Hermes AI installed
+- OMH (oh-my-hermes) installed
+
 ## Usage
+
 ```
 /team [task description]
 /team --agents=architect,executor,critic [task]
 ```
 
-## What It Does
+## What Team Does
 
 Team orchestrates multiple agents working together:
 
