@@ -38,7 +38,7 @@
         "/ralph skill is callable from Hermes",
         "omh doctor shows Hermes integration working"
       ],
-      "passes": false
+      "passes": true
     }
   ]
 }
