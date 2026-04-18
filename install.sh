@@ -49,11 +49,20 @@ echo -e "${BLUE}Setting up OMH in Hermes...${NC}"
 mkdir -p "$OMH_DIR"
 mkdir -p "$HERMES_DIR/skills/omh"
 
-# Copy skills
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+# Copy skills to Hermes skills directory
+# Hermes expects skills in ~/.hermes/skills/<skill-name>/
+HERMES_SKILLS_DIR="$HERMES_DIR/skills"
+OMH_SKILLS_DIR="$HERMES_SKILLS_DIR/omh"
+
+echo -e "${BLUE}Setting up OMH skills in Hermes...${NC}"
+
+# Create Hermes skills directory
+mkdir -p "$OMH_SKILLS_DIR"
+
+# Copy skills to Hermes skills directory (correct location)
 if [ -d "$SCRIPT_DIR/skills" ]; then
-    cp -r "$SCRIPT_DIR/skills/"* "$OMH_DIR/"
-    echo -e "${GREEN}✓ Skills installed to $OMH_DIR${NC}"
+    cp -r "$SCRIPT_DIR/skills/"* "$OMH_SKILLS_DIR/"
+    echo -e "${GREEN}✓ Skills installed to $OMH_SKILLS_DIR${NC}"
 fi
 
 # Copy agents
